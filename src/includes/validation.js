@@ -35,7 +35,7 @@ export default {
      defineRule("country_excluded", excluded);
 
     configure({
-      generateMessage: (ctx) => {
+       generateMessage: (ctx) => {
         const messages = {
           required: `The field ${ctx.field} is required`,
           min: `The field ${ctx.field} is too short`,
